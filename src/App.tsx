@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 // 🚀 완전히 새로운 npm import 방식 - 데모와 동일한 성능!
@@ -9,7 +9,7 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // 🚨 데모와 완전히 동일한 옵션으로 초기화
-  const { isReady, scrollPosition, scrollInfo, scrollTo, instance } =
+  const { isReady, scrollPosition, scrollInfo, instance } =
     useTwoDimensionScroll({
       debug: true,
       ui: {
