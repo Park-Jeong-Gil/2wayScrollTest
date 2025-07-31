@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "two-dimension-scroll": "^1.0.8"
+    "two-dimension-scroll": "^1.0.10"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

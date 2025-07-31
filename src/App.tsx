@@ -24,16 +24,18 @@ function App() {
         wheelMultiplier: 1.1,
         precisionMode: true,
         keyboardScrollAmount: 0.8,
+        prioritizeVertical: true, // 🆕 Y축 우선 모드 테스트!
       },
       mobile: {
-        duration: 800,
-        horizontalSensitivity: 1.8,
-        verticalSensitivity: 2.2,
+        duration: 1000,
+        horizontalSensitivity: 1.2,
+        verticalSensitivity: 1.5,
         lerp: 0.15,
         touchMultiplier: 2.5,
         bounceEffect: true,
         flingMultiplier: 1.2,
         touchStopThreshold: 4,
+        prioritizeVertical: true, // 🆕 Y축 우선 모드 테스트!
       },
       tablet: {
         duration: 900,
@@ -43,6 +45,7 @@ function App() {
         wheelMultiplier: 1.05,
         touchMultiplier: 2.2,
         hybridMode: true,
+        prioritizeVertical: true, // 🆕 Y축 우선 모드 테스트!
       },
     });
 
